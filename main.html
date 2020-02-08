@@ -10,14 +10,51 @@
         
         <style>
             body {
-                background-color: aquamarine;
+                background-color: powderblue;
+            }
+            ol, ul, li {
+
+                display: inline;
+                border-top:2px solid rgb(0, 0, 0);
+                border-bottom: 2px solid rgb(0, 0, 0);
+                padding: 10px
+            }
+            .emptyline {
+                margin-top: 1.5em;
             }
         
         </style>
     </head> 
-    Hypertext Markup Language
     <!-- this is a body -->
-    <body style="background-color:powderblue;">
+    <body>
+        <header id="header">
+            <h1>
+                <a href="./main.html">
+                Welcome to Sanghyun's HomePage!
+                </a>
+            </h1>
+        </header>
+        <nav>
+            <div class="main-list">
+                <ul>
+                    <li>
+                        <a class="main-link" href="./main.html">
+                            Main Page
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-link" href="./DLRM/main.html">
+                            DLRM
+                        </a>
+                    </li>
+                    <li>
+                        <a class="main-link" href="./Git/main.html">
+                            Git
+                        </a>    
+                    </li>
+                </ul>
+            </div>
+        </nav>
         <h1 style="font-size: 60px;font-family: Geneva, Tahoma, sans-serif, ;">First Heading</h1>
         <hr> <!-- Thematic break -->
 
