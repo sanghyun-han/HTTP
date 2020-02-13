@@ -1,0 +1,30 @@
+body {
+    background-color: powderblue;
+    text-align: center;
+}
+ol, ul, li {
+
+    display: inline;
+    border-top:2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
+    padding: 10px
+}
+.emptyline {
+    margin-top: 1.5em;
+}
+
+#para {
+    color:teal;
+}
+.headings {
+    color: deepskyblue; text-decoration: overline;
+}
+
+.mainpage {
+    background-color: powderblue;
+    text-align: center;
+}
+
+.nav {
+    ul, li {display: inline;}
+}
